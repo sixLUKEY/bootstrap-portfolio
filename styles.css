@@ -1,0 +1,193 @@
+
+
+.small-text {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	animation: aitf 10s linear infinite;
+}
+  .letter {
+
+    font: 700 2em/1 "Oswald", sans-serif;
+   
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.875);
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+
+  #L{
+    color: #022af2;
+  }
+  #U{
+    color: #0602f2;
+  }
+  #K{
+    color: #4202f2;
+  }
+  #E{
+    color: #7202f2;
+  }
+  #E2{
+    color: #9202f2;
+  }
+  #V{
+    color: #ea02f2;
+  }
+  #E3{
+    color: #f202c6;
+  }
+  #R{
+    color: #f20282;
+  }
+  #T{
+    color: #f2024e;
+  }
+  #S{
+    color: #f2022a;
+  }
+  #O{
+    color: #f20202;
+  }
+  #N{
+    color: #f23202;
+  }
+
+
+
+
+
+
+
+
+
+
+
+@keyframes bobble {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}  
+
+@keyframes rotate {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+.progress-bar {
+    animation: rotate 10s infinite ;
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: opacity 0.5s ease-in-out, scale 2s;
+}
+
+.letter{
+    animation: bobble 3s linear infinite;
+}
+
+.progress-bar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;  
+  }
+  
+.progress-bar svg{
+    transition: 0.5s;
+}
+
+.progress-bar svg:hover{
+    scale: 1.1;
+}
+  
+#html {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#ED4C2C 98%, rgb(227, 159, 81) 0);  
+}
+#css {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#2449D8 95%, rgb(118, 191, 247) 0);  
+}
+#bootstrap {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#7431F9 80%, rgb(185, 123, 239) 0);
+}
+#JS {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#EFD81D 75%, rgb(255, 254, 174) 0);  
+}
+#react {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#02D1F2 70%, rgb(163, 231, 248) 0);  
+}
+#vue {
+    background: 
+    radial-gradient(closest-side, rgb(255, 255, 255) 79%, transparent 80% 100%),
+    conic-gradient(#3EAF7C 55%, rgb(126, 252, 151) 0);  
+}
+#node {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#7CC327 50%, rgb(171, 244, 119) 0);  
+}
+#php {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#4B568C 80%, rgb(160, 223, 250) 0);  
+}
+
+#html:hover{
+    color: #ED4C2C;
+}
+
+#css:hover{
+    color: #2449D8;
+}
+
+#bootstrap:hover{
+    color: #7431F9;
+}
+
+#JS:hover{
+    color: #EFD81D;  
+}
+
+#react:hover{
+    color: #02D1F2;
+}
+
+#vue:hover{
+    color: #3EAF7C;
+}
+
+#node:hover{
+    color: #7CC327;
+}
+
+#php:hover{
+    color: #4B568C ;
+}
